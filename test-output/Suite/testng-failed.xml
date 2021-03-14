@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.TestTweets">
+        <methods>
+          <include name="TweetWithValidLength"/>
+          <include name="TweetWithValidLengthAndGIF"/>
+          <include name="tearDown"/>
+          <include name="emptyTweet"/>
+          <include name="TweetWithInvalidLength"/>
+          <include name="NavigateToTwitterLoginPage"/>
+          <include name="TweetWithGIF"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- Tests.TestTweets -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

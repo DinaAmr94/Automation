@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61366" started-at="2021-03-14T18:06:10Z" finished-at="2021-03-14T18:07:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61366" started-at="2021-03-14T18:06:10Z" finished-at="2021-03-14T18:07:11Z">
+      <class name="Tests.TestTweets">
+        <test-method status="PASS" signature="NavigateToTwitterLoginPage()[pri:0, instance:Tests.TestTweets@57baeedf]" name="NavigateToTwitterLoginPage" is-config="true" duration-ms="5384" started-at="2021-03-14T18:06:10Z" finished-at="2021-03-14T18:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToTwitterLoginPage -->
+        <test-method status="PASS" signature="LoginByValidCredentials(java.lang.reflect.Method)[pri:1, instance:Tests.TestTweets@57baeedf]" name="LoginByValidCredentials" duration-ms="1869" started-at="2021-03-14T18:06:15Z" finished-at="2021-03-14T18:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.LoginByValidCredentials(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByValidCredentials -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Tests.TestTweets@57baeedf]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-03-14T18:06:17Z" finished-at="2021-03-14T18:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.LoginByValidCredentials(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginByValidCredentials status=SUCCESS method=TestTweets.LoginByValidCredentials(java.lang.reflect.Method)[pri:1, instance:Tests.TestTweets@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TweetWithValidLength(java.lang.reflect.Method)[pri:2, instance:Tests.TestTweets@57baeedf]" name="TweetWithValidLength" duration-ms="7233" started-at="2021-03-14T18:06:17Z" finished-at="2021-03-14T18:06:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithValidLength(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithValidLength -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Tests.TestTweets@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-14T18:06:24Z" finished-at="2021-03-14T18:06:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithValidLength(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TweetWithValidLength status=SUCCESS method=TestTweets.TweetWithValidLength(java.lang.reflect.Method)[pri:2, instance:Tests.TestTweets@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TweetWithGIF(java.lang.reflect.Method)[pri:3, instance:Tests.TestTweets@57baeedf]" name="TweetWithGIF" duration-ms="12895" started-at="2021-03-14T18:06:24Z" finished-at="2021-03-14T18:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithGIF(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithGIF -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Tests.TestTweets@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-14T18:06:37Z" finished-at="2021-03-14T18:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithGIF(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TweetWithGIF status=SUCCESS method=TestTweets.TweetWithGIF(java.lang.reflect.Method)[pri:3, instance:Tests.TestTweets@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TweetWithValidLengthAndGIF(java.lang.reflect.Method)[pri:4, instance:Tests.TestTweets@57baeedf]" name="TweetWithValidLengthAndGIF" duration-ms="4382" started-at="2021-03-14T18:06:37Z" finished-at="2021-03-14T18:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithValidLengthAndGIF(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithValidLengthAndGIF -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Tests.TestTweets@57baeedf]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-03-14T18:06:42Z" finished-at="2021-03-14T18:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithValidLengthAndGIF(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TweetWithValidLengthAndGIF status=SUCCESS method=TestTweets.TweetWithValidLengthAndGIF(java.lang.reflect.Method)[pri:4, instance:Tests.TestTweets@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="emptyTweet(java.lang.reflect.Method)[pri:5, instance:Tests.TestTweets@57baeedf]" name="emptyTweet" duration-ms="5442" started-at="2021-03-14T18:06:42Z" finished-at="2021-03-14T18:06:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.emptyTweet(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyTweet -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Tests.TestTweets@57baeedf]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-03-14T18:06:47Z" finished-at="2021-03-14T18:06:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.emptyTweet(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=emptyTweet status=SUCCESS method=TestTweets.emptyTweet(java.lang.reflect.Method)[pri:5, instance:Tests.TestTweets@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TweetWithInvalidLength(java.lang.reflect.Method)[pri:6, instance:Tests.TestTweets@57baeedf]" name="TweetWithInvalidLength" duration-ms="9898" started-at="2021-03-14T18:06:47Z" finished-at="2021-03-14T18:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithInvalidLength(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithInvalidLength -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Tests.TestTweets@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-14T18:06:57Z" finished-at="2021-03-14T18:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.TweetWithInvalidLength(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TweetWithInvalidLength status=SUCCESS method=TestTweets.TweetWithInvalidLength(java.lang.reflect.Method)[pri:6, instance:Tests.TestTweets@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="postSameTweetAtRow(java.lang.reflect.Method)[pri:7, instance:Tests.TestTweets@57baeedf]" name="postSameTweetAtRow" duration-ms="11612" started-at="2021-03-14T18:06:57Z" finished-at="2021-03-14T18:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.postSameTweetAtRow(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSameTweetAtRow -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:Tests.TestTweets@57baeedf]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-03-14T18:07:09Z" finished-at="2021-03-14T18:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestTweets.postSameTweetAtRow(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=postSameTweetAtRow status=SUCCESS method=TestTweets.postSameTweetAtRow(java.lang.reflect.Method)[pri:7, instance:Tests.TestTweets@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Tests.TestTweets@57baeedf]" name="closeDriver" is-config="true" duration-ms="2595" started-at="2021-03-14T18:07:09Z" finished-at="2021-03-14T18:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.TestTweets -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

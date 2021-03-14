@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Twitter Automation Task]">
+  <test thread-count="5" name="TweetTesting(failed)">
+    <classes>
+      <class name="Pages.Tweet">
+        <methods>
+          <include name="TweetWithValidLength"/>
+          <include name="VerifyURL"/>
+        </methods>
+      </class> <!-- Pages.Tweet -->
+      <class name="Pages.TwitterLogin">
+        <methods>
+          <include name="LoginByValidCredentials"/>
+          <include name="NavigateToTwitterLoginPage"/>
+        </methods>
+      </class> <!-- Pages.TwitterLogin -->
+    </classes>
+  </test> <!-- TweetTesting(failed) -->
+</suite> <!-- Failed suite [Twitter Automation Task] -->
